@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
+import './App.css';
 
 
 const projects = [
@@ -60,7 +61,6 @@ const projects = [
 ];
 
 
-
 function App() {
   return (
     <Router>
@@ -71,7 +71,7 @@ function App() {
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
-          <Route path="projects" element={<Projects />} />
+          <Route path="projects" element={<Projects projects={projects}/>} />
           <Route path="gallery" element={<Gallery />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
