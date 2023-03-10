@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
+// import Projects from './components/pages/Projects';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
 import './App.css';
@@ -62,6 +62,12 @@ const projects = [
 
 
 function App() {
+
+  // state = {
+  //   projects
+  // };
+
+
   return (
     <Router>
       <div>
@@ -71,8 +77,8 @@ function App() {
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
-          <Route path="projects" element={<Projects projects={projects}/>} />
-          <Route path="gallery" element={<Gallery />} />
+          {/* <Route path="projects" element={<Projects gallery={projects}/>} /> */}
+          <Route path="gallery" element={<Gallery projects = {projects}/>} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
