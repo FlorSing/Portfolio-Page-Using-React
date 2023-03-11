@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Team Page Constructor", 
+      "repository": "https://github.com/FlorSing/team-page-constructor",
+      "screenshot": "https://github.com/FlorSing/team-page-constructor/blob/main/assets/teamPageConstructor.jpg", 
+      "deployment": "https://github.com/FlorSing/team-page-constructor/blob/main/starter/output/team.html" 
+    },
+  
+    {
+      "title": "Password Generator ver.01", 
+      "repository": "https://github.com/FlorSing/Password-Generator-ver.01",
+      "screenshot": "https://github.com/FlorSing/Password-Generator-ver.01/blob/main/assets/images/05-javascript-challenge-demo.png", 
+      "deployment": "https://florsing.github.io/Password-Generator-ver.01/" 
+    },
+  
+    {
+      "title": "Web Calendar Planner",
+      "repository": "https://github.com/FlorSing/Web-Calendar-Planner",
+      "screenshot": "https://user-images.githubusercontent.com/118206899/215060931-b0f4fd1d-7e1a-4d46-8462-0dc0b29fdf84.gif", 
+      "deployment": "https://florsing.github.io/Web-Calendar-Planner/"
+    },
+  
+    {
+      "title": "5-day Weather Outlook Dashboard",
+      "repository": "https://github.com/FlorSing/5-day-Weather-Outlook-Dashboard-",
+      "screenshot": "https://github.com/FlorSing/My-Portfolio-created-with-React-/blob/main/portfolio/assets/weatherforecastscreenshot.jpg",
+      "deployment": "https://florsing.github.io/5-day-Weather-Outlook-Dashboard-/"
+    },
+    
+    {
+      "title": "README.md Creator",
+      "repository": "https://github.com/FlorSing/readme-creator",
+      "screenshot": "https://github.com/FlorSing/readme-creator/blob/main/dist/Untitled_%20Mar%205%2C%202023%205_00%20PM.webm",
+      "deployment": "https://github.com/FlorSing/readme-creator/blob/main/dist/README.md"
+    },
+  
+    {
+      "title": "Web Quiz App Prototype",
+      "repository": "https://github.com/FlorSing/web-quiz-app-prototype",
+      "screenshot": "https://user-images.githubusercontent.com/118206899/213149911-d30a2aff-f9b4-430c-b97a-beb6c8fe28ff.gif",
+      "deployment": "https://florsing.github.io/web-quiz-app-prototype/"
+    },
+  
+    {
+      "title": "WordGiffy (Group Project)",
+      "repository": "https://github.com/DavidBlueLamassu/WordGiffy",
+      "screenshot": "https://github.com/FlorSing/My-Portfolio-created-with-React-/blob/main/portfolio/assets/wordgiffyscreenshot.jpg",
+      "deployment": "https://davidbluelamassu.github.io/WordGiffy/"
+    }
+  
+]
