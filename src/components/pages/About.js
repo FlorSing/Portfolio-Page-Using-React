@@ -11,6 +11,13 @@ function About() {
         <h1 id='name'>Florante P. Singcak</h1>
         {/* <img class='img'></img> */}
         <h3>Front-end Web Developer</h3>
+        <p>
+        Highly competent with a vast wealth of transferrable professional skills gained from previous roles ready to bring on board and add value to the organisation. 
+        </p>
+        <p>
+        Currently upgrading skills to keep up with relevant technologies and seek the right opportunity to 
+  dedicate a full-time career for a well-established company
+        </p>
       </div>
       <div>
       <div class="IDcard" >
