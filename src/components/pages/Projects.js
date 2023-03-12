@@ -18,21 +18,16 @@ render() {
   return (
     <Container>
       <Row>
-        <Col size='sm-6'>
-          <Card
-            heading = {this.state.projects.tile}>
-              {this.state.projects.map(project => (
-                <Gallery
-                  id = {project.id}
-                  key = {project.id}
-                  title = {project.title}
-                  repository = {project.repository}
-                  screenshot = {project.screenshot}
-                  deployment = {project.deployment}
-                />
-                ))}  
-          </Card>
-        </Col>
+          {this.state.projects.map(project => (
+            <Gallery
+              id = {project.id}
+              key = {project.id}
+              title = {project.title}
+              repository = {project.repository}
+              screenshot = {project.screenshot}
+              deployment = {project.deployment}>
+            </Gallery>
+          ))}            
       </Row>
     </Container>
   );
@@ -40,3 +35,17 @@ render() {
 }
 
 export default Projects;
+
+{/* <Card
+heading = {this.state.projects.tile}>
+  {this.state.projects.map(project => (
+    <Gallery
+    //   id = {project.id}
+    //   key = {project.id}
+    //   title = {project.title}
+    //   repository = {project.repository}
+    //   screenshot = {project.screenshot}
+    //   deployment = {project.deployment}
+    />
+    ))}  
+</Card> */}
