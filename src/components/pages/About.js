@@ -6,11 +6,18 @@ function About() {
   
     return (
       <Header>
-      <div class="hero text-center"      >
+      <div class="jumbotron"      >
 
         <h1 id='name'>Florante P. Singcak</h1>
         {/* <img class='img'></img> */}
         <h3>Front-end Web Developer</h3>
+      </div>
+      <div>
+      <div class="IDcard" >
+        <img src="../../assets/FpsIDb&w.jpg" class="card-img-top" alt="photoID"></img>
+   
+      </div>
+
         <p>
         Highly competent with a vast wealth of transferrable professional skills gained from previous roles ready to bring on board and add value to the organisation. 
         </p>

@@ -1,5 +1,7 @@
 
-.hero {
+.jumbotron {
+    display: flex;
+    align-items: center;
     font-family: milo;
     color:azure;
     background-color: paleturquoise;
