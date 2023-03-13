@@ -6,6 +6,11 @@ import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
 import Card from "../Card";
+import Wrapper from "../Wrapper";
+
+// const bakgrdStyle = {
+//   backgroundColor: 'navy'
+// }
 
 class Projects extends Component {
 
@@ -16,7 +21,8 @@ class Projects extends Component {
 
 render() {
   return (
-    <Container>
+    <Wrapper>
+    <Container >
       <Row>
           {this.state.projects.map(project => (
             <Gallery
@@ -30,22 +36,9 @@ render() {
           ))}            
       </Row>
     </Container>
-  );
+    </Wrapper>
+    );
 }
 }
 
 export default Projects;
-
-{/* <Card
-heading = {this.state.projects.tile}>
-  {this.state.projects.map(project => (
-    <Gallery
-    //   id = {project.id}
-    //   key = {project.id}
-    //   title = {project.title}
-    //   repository = {project.repository}
-    //   screenshot = {project.screenshot}
-    //   deployment = {project.deployment}
-    />
-    ))}  
-</Card> */}

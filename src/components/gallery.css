@@ -1,0 +1,15 @@
+.col {
+    background-color: blue;
+}
+
+.card {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: rgb(145, 206, 255) !important;
+    color: rgb(17, 1, 121);
+
+}
+
+.container {
+    background-color: rgb(17, 1, 121);
+}

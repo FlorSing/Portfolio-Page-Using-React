@@ -1,9 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './nav.css'
 
+const navStyle = {
+  backgroundColor: 'skyblue',
+  fontColor: 'white'
+}
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={navStyle}>
       <li className="nav-item">
         <NavLink
           to="/"

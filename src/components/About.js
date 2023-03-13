@@ -1,4 +1,4 @@
-// import React, { Component } from "react";
+ import React, { Component } from "react";
 import Header from './Header';
 import './about.css';
 import Container from "./Container";
@@ -32,7 +32,7 @@ function About() {
           <Col className = 'photo' size='sm-2'>
             {/* <Card className="IDcard" size = 'sm-4'> */}
                <div class="IDcard" size> 
-                <img src={photo} class="card-img-top" alt="photoID"></img>
+                <img src={photo} class="img-fluid rounded-circle0" className='img-fluid' alt="photoID"></img>
               </div>
             {/* </Card> */}
           </Col>
