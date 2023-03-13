@@ -5,11 +5,20 @@
     justify-content: center; */
     font-family: milo;
     color:azure;
-    background-color: paleturquoise;
+    /* background-color: paleturquoise; */
     background-image: url('../assets/DARKcodingbackground.png');
-    height: 500px;
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(50vh - 25px);
 }
 
 #name {
     font-size: 5em;
+}
+
+.IDcard {
+    /* background-size: 5px; */
+    background-image: url('../assets/FpsIDbw.jpg');
+    background-size: cover;
 }
