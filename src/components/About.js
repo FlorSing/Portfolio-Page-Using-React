@@ -8,7 +8,7 @@ import Card from "./Card";
 import Footer from "./Footer";
 import Wrapper from "./Wrapper";
 
-const photo = require('../assets/FpsIDbw.jpg');
+const photo = require('../assets/FpsIDblue.png');
 
 function About() {
   
@@ -29,20 +29,20 @@ function About() {
       </Header>
       <Container>
         <Row>
-          <Col size='sm-4'>
-            <Card class="IDcard" size = 'sm-4'>
-              <div class="IDcard" size>
+          <Col className = 'photo' size='sm-2'>
+            {/* <Card className="IDcard" size = 'sm-4'> */}
+               <div class="IDcard" size> 
                 <img src={photo} class="card-img-top" alt="photoID"></img>
               </div>
-            </Card>
+            {/* </Card> */}
           </Col>
           <Col size='sm-8'>
-            <Card class="IDcard" size = 'sm-8'>
+            {/* <Card className="headlineCard" size = 'sm-8'> */}
               <div class="headline" size>
               <p>Highly competent with a vast wealth of transferrable professional skills gained from previous roles ready to bring on board and add value to the organisation. </p>
               <p>Currently upgrading skills to keep up with relevant technologies and seek the right opportunity to dedicate a full-time career for a well-established company</p>
               </div>
-            </Card>
+            {/* </Card> */}
           </Col>
 
         </Row>

@@ -4,7 +4,7 @@
     align-content: center;
     justify-content: center; */
     font-family: milo;
-    color:azure;
+    color: lightblue;
     /* background-color: paleturquoise; */
     background-image: url('../assets/DARKcodingbackground.png');
     /* height: 500px; */
@@ -14,11 +14,37 @@
 }
 
 #name {
-    font-size: 5em;
+    font-size: 7em;
+}
+
+.wrapper {
+    background-color: rgb(17, 1, 121);
 }
 
 .IDcard {
-    /* background-size: 5px; */
-    background-image: url('../assets/FpsIDbw.jpg');
-    background-size: cover;
+    background-color:  rgb(17, 1, 121);
+    margin-bottom: 25px;
+    size: 35px;
+}
+
+.headline {
+    text-align: left;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: left;
+    font-family: milo;
+    font-size: 1.5em;
+    /* background-color: cornflowerblue; */
+    margin-top: 0;
+    /* margin: 35px; */
+    color: lightblue;
+}
+
+.footer {
+    background-color: lightblue;
+    text-align: center;
+}
+
+col {
+    margin-bottom: 25px;
 }
