@@ -1,6 +1,10 @@
 // import React, { Component } from "react";
 import Header from './Header';
 import './about.css';
+// import photo from '../assets/FpsIDbw.jpg';
+
+
+const photo = require('../assets/FpsIDbw.jpg');
 
 function About() {
   
@@ -21,7 +25,7 @@ function About() {
       </div>
       <div>
       <div class="IDcard" >
-        <img src="../../assets/FpsIDb&w.jpg" class="card-img-top" alt="photoID"></img>
+        <img src={photo} class="card-img-top" alt="photoID"></img>
    
       </div>
 

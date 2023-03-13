@@ -1,11 +1,11 @@
 import { render } from "@testing-library/react";
 import React, { Component } from "react";
 import projects from "../../projects.json"
-import Gallery from "./Gallery";
-import Container from "./Container";
-import Row from "./Row";
-import Col from "./Col";
-import Card from "./Card";
+import Gallery from "../Gallery";
+import Container from "../Container";
+import Row from "../Row";
+import Col from "../Col";
+import Card from "../Card";
 
 class Projects extends Component {
 
