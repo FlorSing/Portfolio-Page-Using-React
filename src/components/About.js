@@ -18,24 +18,33 @@ function About() {
       <div class="jumbotron"      >
         <h1 id='name'>Florante P. Singcak</h1>
         <h3>Front-end Web Developer</h3>
-        <p>
+        {/* <p>
         Highly competent with a vast wealth of transferrable professional skills gained from previous roles ready to bring on board and add value to the organisation. 
         </p>
         <p>
         Currently upgrading skills to keep up with relevant technologies and seek the right opportunity to 
   dedicate a full-time career for a well-established company
-        </p>
+        </p> */}
       </div>
       </Header>
       <Container>
         <Row>
-          <Card class="IDcard" size = 'sm-4'>
-          <div class="IDcard" size>
-            {/* <img src={photo} class="card-img-top" alt="photoID"></img> */}
-   
-      </div>
+          <Col size='sm-4'>
+            <Card class="IDcard" size = 'sm-4'>
+              <div class="IDcard" size>
+                <img src={photo} class="card-img-top" alt="photoID"></img>
+              </div>
+            </Card>
+          </Col>
+          <Col size='sm-8'>
+            <Card class="IDcard" size = 'sm-8'>
+              <div class="headline" size>
+              <p>Highly competent with a vast wealth of transferrable professional skills gained from previous roles ready to bring on board and add value to the organisation. </p>
+              <p>Currently upgrading skills to keep up with relevant technologies and seek the right opportunity to dedicate a full-time career for a well-established company</p>
+              </div>
+            </Card>
+          </Col>
 
-          </Card>
         </Row>
       </Container>
 
