@@ -1,10 +1,13 @@
 
 .wrapper {
     background-color: rgb(17, 1, 121);
+    
 }
 
 .contacts {
     background-color: rgb(17, 1, 121);
     font-family: milo;
     color: white;
+    background-image: url('../../assets/DARKcodingbackground.png');
+    height: 500px;
 }
