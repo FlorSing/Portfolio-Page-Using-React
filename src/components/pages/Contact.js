@@ -9,6 +9,7 @@ import Row from "../Row";
 import Col from "../Col";
 
 
+
 class Contact extends Component {
   render() {
   return (
@@ -33,7 +34,8 @@ class Contact extends Component {
       <a href='https://www.linkedin.com/in/florante-singcak/' class="btn btn-primary">https://www.linkedin.com/in/florante-singcak/</a> 
       </p>
       <p>See my CV: <br></br>
-      <a href="../../assets/2023WebDevCVfps.pdf" class="btn btn-primary">FPScv2023</a>
+      {/* <a href="../../assets/2023WebDevCVfps.pdf" class="btn btn-primary">FPScv2023</a> */}
+      <a href='../../assets/2023WebDevCVfps.pdf' class="btn btn-primary">FPScv2023</a>
       </p>
       {/* <Link to="learn" role="button" className="btn btn-link">
         Learn More

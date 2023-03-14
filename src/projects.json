@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Team Page Constructor", 
       "repository": "https://github.com/FlorSing/team-page-constructor",
-      "screenshot": "PUBLIC_URL/assets/teampageconst.png", 
+      "screenshot": "https://user-images.githubusercontent.com/118206899/225058406-e2712428-184d-48f4-9db9-2c8dc401ad55.png", 
       "deployment": "https://github.com/FlorSing/team-page-constructor/blob/main/starter/output/team.html" 
     },
     
@@ -11,7 +11,7 @@
       "id": 2,
       "title": "Password Generator ver.01", 
       "repository": "https://github.com/FlorSing/Password-Generator-ver.01",
-      "screenshot": "https://drive.google.com/file/d/1EFO7GXJhSTj1ni0g1DRY3y0YiktqSqMy/view?usp=share_link", 
+      "screenshot": "https://user-images.githubusercontent.com/118206899/211583787-7c8c1367-bf22-4d94-8952-f240f4b115f1.png", 
       "deployment": "https://florsing.github.io/Password-Generator-ver.01/" 
     },
   
@@ -26,7 +26,7 @@
       "id": 4,
       "title": "5-day Weather Outlook Dashboard",
       "repository": "https://github.com/FlorSing/5-day-Weather-Outlook-Dashboard-",
-      "screenshot": "https://drive.google.com/file/d/1c47s_CDKB9lujEPquxpcHPbD4n-1leok/view?usp=share_link",
+      "screenshot": "https://user-images.githubusercontent.com/118206899/225059403-087f4be1-be53-41d3-b942-d9bd35c5c0ed.png",
       "deployment": "https://florsing.github.io/5-day-Weather-Outlook-Dashboard-/"
     },
     
@@ -34,7 +34,7 @@
       "id": 5,
       "title": "README.md Creator",
       "repository": "https://github.com/FlorSing/readme-creator",
-      "screenshot": "https://drive.google.com/file/d/1ncydCZjEBZC729uqCYSWMbcpC7tHPyCN/view?usp=share_link",
+      "screenshot": "https://user-images.githubusercontent.com/118206899/225060226-199aa142-99e4-43dd-9867-73f1961b8488.png",
       "deployment": "https://github.com/FlorSing/readme-creator/blob/main/dist/README.md"
     },
   
@@ -50,7 +50,7 @@
       "id": 7,
       "title": "WordGiffy (Group Project)",
       "repository": "https://github.com/DavidBlueLamassu/WordGiffy",
-      "screenshot": "https://drive.google.com/file/d/14Plwgnz4-QLGT1Ok3Hb_RkT6ZiUcSlCo/view?usp=share_link",
+      "screenshot": "https://user-images.githubusercontent.com/118206899/225061284-2577daf4-0134-4328-915c-4f9c5a8ad74a.png",
       "deployment": "https://davidbluelamassu.github.io/WordGiffy/"
     }
   
