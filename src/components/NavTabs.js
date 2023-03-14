@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './nav.css'
 
 const navStyle = {
-  backgroundColor: 'skyblue',
+  backgroundColor: 'rgb(17, 1, 121)',
   fontColor: 'white'
 }
 function NavTabs() {

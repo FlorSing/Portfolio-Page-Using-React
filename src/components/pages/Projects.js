@@ -7,6 +7,8 @@ import Row from "../Row";
 import Col from "../Col";
 import Card from "../Card";
 import Wrapper from "../Wrapper";
+import Header from "../Header";
+import About from "../About";
 
 // const bakgrdStyle = {
 //   backgroundColor: 'navy'
@@ -22,6 +24,8 @@ class Projects extends Component {
 render() {
   return (
     <Wrapper>
+      <Header>
+      </Header>
     <Container >
       <Row>
           {this.state.projects.map(project => (
@@ -34,6 +38,7 @@ render() {
               deployment = {project.deployment}>
             </Gallery>
           ))}            
+          
       </Row>
     </Container>
     </Wrapper>
