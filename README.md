@@ -54,6 +54,8 @@
 
  The sample web page deployment can be seen in https://florsing.github.io/portfolio-page-using-react/
 
+ A screenshot of the page is here: ![Screenshot of project page](https://user-images.githubusercontent.com/118206899/225053817-cc298418-8b6c-49f0-8404-213a81b1711f.png)
+
     
  ## Questions 
 
