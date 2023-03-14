@@ -56,8 +56,10 @@
 
  A screenshot of the page is here: ![Screenshot of project page](https://user-images.githubusercontent.com/118206899/225053817-cc298418-8b6c-49f0-8404-213a81b1711f.png)
 
+gallery page:
 
-    ![Screenshot of project gallery](https://user-images.githubusercontent.com/118206899/225070735-957bf395-a435-416e-a522-245a273284fd.png)
+![Screenshot of project gallery](https://user-images.githubusercontent.com/118206899/225071139-da2b9287-5e3a-4237-8a11-f42cd3ab9298.png)
+
 
  ## Questions 
 
