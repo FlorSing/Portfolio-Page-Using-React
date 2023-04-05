@@ -13,7 +13,7 @@ function NavTabs() {
     <ul className="nav nav-tabs" style={navStyle}>
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="Home"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'

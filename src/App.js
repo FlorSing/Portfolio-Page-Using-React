@@ -5,7 +5,6 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
-
 function App() {
 
   return (
@@ -16,7 +15,7 @@ function App() {
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
