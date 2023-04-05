@@ -32,7 +32,7 @@ class Contact extends Component {
       </div>
       <div><p>See my CV: <br></br>
       {/* <a href="../../assets/2023WebDevCVfps.pdf" class="btn btn-primary">FPScv2023</a> */}
-      <a href='https://github.com/FlorSing/portfolio-page-using-react/blob/main/src/assets/FPS-cv-2023i.pdf' class="btn btn-primary">FPS-CV</a>
+      <a href='https://docs.google.com/document/d/e/2PACX-1vRFF5SccOJQiN0GVRoUleRdoySBUg9xpcdhR3GVhvgzT7XiTKA0XqKTc5593s-5GLj3mcRQuq9YAS8t/pub' class="btn btn-primary">FPS-CV</a>
       </p>
       </div>
             {/* <Link to="learn" role="button" className="btn btn-link">
