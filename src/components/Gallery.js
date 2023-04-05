@@ -1,12 +1,7 @@
 import React from "react";
-import Container from "./Container";
-import Row from "./Row";
 import Col from "./Col";
 import Card from "./Card";
 import './gallery.css';
-import Wrapper from './Wrapper';
-
-import image from '../assets/teampageconst.png';
 
 function Gallery(props) {
   return (

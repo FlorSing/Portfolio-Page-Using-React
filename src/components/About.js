@@ -1,10 +1,9 @@
- import React, { Component } from "react";
+import React from "react";
 import Header from './Header';
 import './about.css';
 import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
-import Card from "./Card";
 import Footer from "./Footer";
 import Wrapper from "./Wrapper";
 

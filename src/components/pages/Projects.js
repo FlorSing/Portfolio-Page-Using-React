@@ -1,18 +1,10 @@
-import { render } from "@testing-library/react";
 import React, { Component } from "react";
 import projects from "../../projects.json"
 import Gallery from "../Gallery";
 import Container from "../Container";
 import Row from "../Row";
-import Col from "../Col";
-import Card from "../Card";
 import Wrapper from "../Wrapper";
 import Header from "../Header";
-import About from "../About";
-
-// const bakgrdStyle = {
-//   backgroundColor: 'navy'
-// }
 
 class Projects extends Component {
 
