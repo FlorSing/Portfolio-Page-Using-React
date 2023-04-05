@@ -39,8 +39,8 @@ function About() {
           <Col size='sm-8'>
             {/* <Card className="headlineCard" size = 'sm-8'> */}
               <div class="headline" size>
-              <p>Highly competent with a vast wealth of transferrable professional skills gained from previous roles ready to bring on board and add value to the organisation. </p>
-              <p>Currently upgrading skills to keep up with relevant technologies and seek the right opportunity to dedicate a full-time career for a well-established company</p>
+              <p>Highly competent with vast transferable skills gained from 15 years of work experience that includes data gathering, economic research, industry monitoring, branch banking operations, investment analysis, financial analysis, financial modelling/forecasting, and technical analysis. </p>
+              <p>Currently upgrading skills to keep up with relevant technologies while seeking the right opportunity to dedicate a full-time career for a well-established company</p>
               </div>
             {/* </Card> */}
           </Col>

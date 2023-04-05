@@ -5,6 +5,15 @@
 }
 
 .contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* justify-items: center; */
+    /* vertical-align:middle; */
+    /* align-content: center; */
+    align-items: center;
     background-color: rgb(17, 1, 121);
     font-family: milo;
     color: white;

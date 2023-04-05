@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './nav.css'
 
 const navStyle = {
@@ -13,7 +13,7 @@ function NavTabs() {
     <ul className="nav nav-tabs" style={navStyle}>
       <li className="nav-item">
         <NavLink
-          to="/Home"
+          to="/"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
