@@ -52,6 +52,14 @@
       "repository": "https://github.com/DavidBlueLamassu/WordGiffy",
       "screenshot": "https://user-images.githubusercontent.com/118206899/225061284-2577daf4-0134-4328-915c-4f9c5a8ad74a.png",
       "deployment": "https://davidbluelamassu.github.io/WordGiffy/"
+    },
+
+    {
+      "id": 8,
+      "title": "Productivity App (Group Project)",
+      "repository": "https://github.com/daveheseltine/productivity-app",
+      "screenshot": "https://user-images.githubusercontent.com/118206899/228863672-403d4458-9523-4fdd-90cd-881afc4018dc.png",
+      "deployment": "https://mellow-clafoutis-de2706.netlify.app/"
     }
   
 ]

@@ -1,17 +1,19 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './nav.css'
 
 const navStyle = {
   backgroundColor: 'rgb(17, 1, 121)',
-  fontColor: 'white'
+  fontColor: 'white',
+  fontFamily: 'Georgia'
 }
 function NavTabs() {
   return (
+    <div>
     <ul className="nav nav-tabs" style={navStyle}>
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="/Home"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -42,6 +44,7 @@ function NavTabs() {
         </NavLink>
       </li>
     </ul>
+    </div>
   );
 }
 

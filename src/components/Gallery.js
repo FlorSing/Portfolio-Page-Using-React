@@ -14,8 +14,10 @@ function Gallery(props) {
         <Col className='projCol' size='sm-4'>
           <Card className='cardTitle' heading = {props.title}>
             <img alt={props.title} className='img-fluid' src={props.screenshot}/>
-            <p>Repository: {props.repository}</p>
-            <p>Deployment: {props.deployment} </p>
+            <p>GitHub Repository:</p>
+            <a href={props.repository} class="btn btn-primary">{props.repository}</a> 
+            <p>Deployment Page:  </p>
+            <a href={props.deployment} class="btn btn-primary">{props.deployment}</a> 
           </Card>
         </Col>
 
